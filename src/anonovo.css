@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'Sweet Signature';
+    src: url('Sweet Signature.ttf')  format('truetype');
+}
+@font-face {
+    font-family: 'Fragmentcore';
+    src: url('CaviarDreams.ttf')  format('truetype');
+}
+
+body{
+    background-image: url("fireworks.gif");
+    background-size:cover;
+}
+div h1 {
+    position: absolute;
+    text-align: center;  
+    top: 10%;
+    left: 10%;  
+ 
+    margin: -10px 0 0 -10px;
+    font-size: 20px;
+    display: flex;
+    font-family: 'Fragmentcore';
+    color: rgb(255, 255, 255);
+
+}
+
+div p {
+    position: absolute;
+    top: 50%;
+    left: 50%;  
+    margin: 200px 0 0 -220px;
+    font-size: 50px;
+    display: flex;
+    font-family: 'Sweet Signature' ;
+    color: rgb(255, 255, 255);
+
+    width: 22ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2s steps(10) infinite alternate-reverse;
+}
+
+@keyframes typing {
+    from {
+        width: 0ch;
+    }
+}
+@keyframes blinking {
+    50% {
+        border-color: transparent;
+    }
+}
+
+
+
